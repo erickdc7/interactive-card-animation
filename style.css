@@ -159,3 +159,25 @@ body {
     transition-delay: 0 !important;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .card {
+    max-width: 250px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-body {
+    font-size: 0.75rem;
+  }
+
+  .card:hover {
+    transform: scale(1);
+  }
+
+  .card-content .button {
+    font-size: 0.75rem;
+  }
+}
